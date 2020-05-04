@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>music player</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> --> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<nav class="nav">
+	<div class="front-nav-items">
+		<div><a href="#" style="font-size:50px;"><i class='fab fa-itunes'></i></a></div>
+		<div><a href="#">Favourites</a></div>
+	</div>
+	<div class="end-nav-items">
+		<div></div>
+		<div id="search-box"><input type="" name="" placeholder="Search"><span style="color:white;"><i class='icon fas fa-microphone'></i></span></div>
+		<div><a href="#"><i class='fas fa-bell'></i></a></div>
+		<div><a href="#" style="font-size:40px;"><i class='fas fa-user-circle'></i></a></div>
+	</div>
+	<a href="#hidden-menu" class="menu"><i class="fa fa-bars"></i></a>
+</nav>
+
+	<ul id="hidden-menu">
+		<li><a href="#" class="menu"><i class="fa fa-bars"></i></a></li>
+		<li><a href="">profile</a></li>
+		<li><a href="">notification</a></li>
+		<li><a href="">favourites</a></li>
+		<li><a href="">search</a></li>
+		<li><input type="" name="" placeholder="Search"><span style="color: #b0aaaa;
+			margin-left: -1.4rem;
+			font-size: 12px;"><i class='icon fas fa-microphone'></i></span></li>
+	</ul>
+
+
+<div id = "content">
+<main>
+
+<div id="music-frame">
+  <div class ="box" id ="box1"></div>
+  <div class ="box" id ="box2"></div>
+  <div class ="box" id ="box3"></div>
+</div>
+<h3 class ="white">Latest-release</h3>
+<br>
+<div id = "latest-music-container">
+	<div class = "latest-music" >
+		<div class = "music1"></div>
+		<div class="song-discription"><h5>Onism</h5><p>Aug 2019</p></div>
+		<div><a href="#div1" class="white"><i class="material-icons">more_horiz</i></a><p>4:30</p></div>
+		<div id = "div1">
+	     <ul class="latest-music-menu">
+		    <a href="#"><i class="material-icons">more_horiz</i></a>
+		    <li style="margin-top:1rem;"><i class='fas fa-play'></i><a href="">play now</a></li>
+		    <li><i class="material-icons">add</i><a href="">add to queue</a></li>
+		    <li><i class="material-icons">playlist_add</i><a href="">add to favourites</a></li>
+		    <li><i class="material-icons">info</i><a href="">get info</a></li>
+	     </ul>
+       </div>
+	</div>
+
+	<div class = "latest-music">
+		<div class = "music2"></div>
+		<div class="song-discription"><h5>Onism</h5><p>April 2020</p></div>
+		<div><a href="#div2" class="white"><i class="material-icons">more_horiz</i></a><p>4:13</p></div>
+		<div id = "div2">
+	     <ul class="latest-music-menu">
+		    <a href="#"><i class="material-icons">more_horiz</i></a>
+		    <li style="margin-top:1rem;"><i class='fas fa-play'></i><a href="">play now</a></li>
+		    <li><i class="material-icons">add</i><a href="">add to queue</a></li>
+		    <li><i class="material-icons">playlist_add</i><a href="">add to favourites</a></li>
+		    <li><i class="material-icons">info</i><a href="">get info</a></li>
+	     </ul>
+       </div>
+	</div>
+
+	<div class = "latest-music">
+		<div class = "music3 "></div>
+		<div class="song-discription"><h5>Onism</h5><p>jan 2022</p></div>
+		<div><a href="#div3" class="white"><i class="material-icons">more_horiz</i></a><p>5:12</p></div>
+		<div id = "div3">
+	     <ul class="latest-music-menu">
+		    <a href="#"><i class="material-icons">more_horiz</i></a>
+		    <li style="margin-top:1rem;"><i class='fas fa-play'></i><a href="">play now</a></li>
+		    <li><i class="material-icons">add</i><a href="">add to queue</a></li>
+		    <li><i class="material-icons">playlist_add</i><a href="">add to favourites</a></li>
+		    <li><i class="material-icons">info</i><a href="">get info</a></li>
+	     </ul>
+       </div>
+	</div>
+
+	<div class = "latest-music">
+		<div class = "music4"></div>
+		<div class="song-discription"><h5>Onism</h5><p>sep 2021</p></div>
+		<div><a href="#div4" class="white"><i class="material-icons">more_horiz</i></a><p>4:10</p></div>
+		<div id = "div4">
+	     <ul class="latest-music-menu">
+		    <a href="#"><i class="material-icons">more_horiz</i></a>
+		    <li style="margin-top:1rem;"><i class='fas fa-play'></i><a href="">play now</a></li>
+		    <li><i class="material-icons">add</i><a href="">add to queue</a></li>
+		    <li><i class="material-icons">playlist_add</i><a href="">add to favourites</a></li>
+		    <li><i class="material-icons">info</i><a href="">get info</a></li>
+	     </ul>
+       </div>
+	</div>
+</div>
+       
+<h3 class = "white">Popular artist</h3>
+<br>
+<div id="artist-container">
+  <div class ="artist" id ="artist1"><a class = "play-icon" href="artist.html"><i class='fas fa-play'></i></a><span>Diljit Dosang</span></div>
+  <div class ="artist" id ="artist2"><a class = "play-icon" href="artist.html"><i class='fas fa-play'></i></a> <span>Atif Aslam</span></div>
+  <div class ="artist" id ="artist3"><a class = "play-icon" href="artist.html"><i class='fas fa-play'></i></a><span>justin Bieber</span></div>
+  <div class ="artist" id ="artist4"><a class = "play-icon" href="artist.html"><i class='fas fa-play'></i></a><span>Arijit Singh</span></div>
+  <div class ="artist" id ="artist5"><a class = "play-icon" href="artist.html"><i class='fas fa-play'></i></a><span>Shreya Goshal</span></div>
+  <div class ="artist" id ="artist6"><a class = "play-icon" href="artist.html"><i class='fas fa-play'></i></a><span>Unknown</span></div>
+</div>
+
+<div id = "category">
+	<span id = "cate1">	
+	</span>
+	<div id = "cate2"></div>
+	<div id = "cate3"></div>
+	<div id = "cate4"></div>
+	<div id = "cate5"></div>
+	<div id = "cate6"></div>
+	<div id = "cate7"></div>
+	<div id = "cate8"></div>
+</div>
+<!-- top song list -->
+<h3 class="white">Top hits</h3><br>
+<div id ="top-song">
+	<div><img src="image/music-player img/Screenshot_4.png"></div>
+	<div><img src="image/music-player img/Screenshot_5.png"></div>
+	<div><img src="image/music-player img/Screenshot_6.png"></div>
+</div>
+<!-- latest english music -->
+<h3 class="white">Latest-english</h3><br>
+<div id ="english-song">
+	<div  id="eng-song1">
+	   <div class="white dis"><h5>onism</h5><p>jau 15 2020</p></div>
+    </div>
+    <div  id="eng-song2">
+	   <div class="white dis"><h5>onism</h5><p>march 19 2016</p></div>
+    </div>
+    <div  id="eng-song3">
+	   <div class="white dis"><h5>onism</h5><p>april 07 2019</p></div>
+    </div>
+    <div  id="eng-song4">
+	   <div class="white dis"><h5>onism</h5><p>jau 15 2010</p></div>
+    </div>
+    <div id="eng-song5">
+	   <div class="white dis"><h5>onism</h5><p>feb 27 2017</p></div>
+    </div>
+    <div  id="eng-song6">
+	   <div class="white dis"><h5>onism</h5><p>aug 23 2019</p></div>
+    </div>
+</div>
+<!-- latest hindi music -->
+<h3 class="white">Latest-hindi</h3><br>
+<div id ="english-song">
+	<div  id="eng-song1">
+	   <div class="white dis"><h5>onism</h5><p>jau 15 2020</p></div>
+    </div>
+    <div  id="eng-song2">
+	   <div class="white dis"><h5>onism</h5><p>march 19 2016</p></div>
+    </div>
+    <div  id="eng-song3">
+	   <div class="white dis"><h5>onism</h5><p>april 07 2019</p></div>
+    </div>
+    <div  id="eng-song4">
+	   <div class="white dis"><h5>onism</h5><p>jau 15 2010</p></div>
+    </div>
+    <div id="eng-song5">
+	   <div class="white dis"><h5>onism</h5><p>feb 27 2017</p></div>
+    </div>
+    <div  id="eng-song6">
+	   <div class="white dis"><h5>onism</h5><p>aug 23 2019</p></div>
+    </div>
+</div>
+</main>
+<div id="side">
+	<div id="heading"><h4 class="white">Queue</h4><p><a href="#showq" style="text-decoration:none;">queue</a></p>
+	<div id = "showq">
+		<ul>
+			<a href="#">queue</a>
+			<li style="margin-top:10px;">playlists</li>
+			<li>favorites list</li>
+		</ul>
+	</div>
+	</div>
+<aside class="aside">
+	<div class="songs" >
+		<div><img src="image/Screenshot_1.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_2.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_3.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_4.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_5.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_6.png"><span>this is a new song</span></div>
+        <div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_7.png"><span>this is a new song</span></div>
+        <div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_8.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_9.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_10.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_8.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_9.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_10.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+	<div class="songs" >
+		<div><img src="image/Screenshot_11.png"><span>this is a new song</span></div>
+		<div><input type="checkbox" id="like"><i for = "like" class="material-icons">favorite_border</i></div>
+	</div>
+</aside>
+</div>
+</div>
+ <nav class = "music-play-nav">
+         <div class="playing-music"><img src="image/music-player img/Screenshot_8.png"></div>
+     	<div class="play-controls"><i class='fas fa-random'></i><i class='fas fa-step-backward'></i><i style="font-size:30px;margin-top:-5px;" class='far fa-pause-circle'></i><i class='fas fa-step-forward'></i><i class='fas fa-sync-alt'></i></div>
+     	<div class = "range"></div>
+     	<div class="volume"><i class="material-icons">playlist_play</i><i class="material-icons">speaker_group</i><i class='fas fa-volume-down'></i><i class="volume-range"></i><i class='fas fa-volume-up'></i></div>
+</nav>
+
+</body>
+</html>
